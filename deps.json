@@ -1,0 +1,8 @@
+{
+    "deps": [
+        "libsystemd0"
+    ],
+    "build_deps": [
+        "libsystemd-dev"
+    ]
+}

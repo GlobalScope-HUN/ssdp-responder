@@ -33,6 +33,8 @@
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
+#else
+#define _PIDFILEDIR "/var/run"
 #endif
 
 #include <sys/stat.h>		/* utimensat() */

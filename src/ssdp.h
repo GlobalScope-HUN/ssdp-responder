@@ -19,6 +19,15 @@
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
+#else
+#define PACKAGE_NAME "ssdpd"
+#define PACKAGE_VERSION "1.0.0"
+#define VERSION "1.0.0"
+#define _CACHEDIR "/var/local"
+#define PACKAGE_BUGREPORT "<bugreport>"
+#define MANUFACTURER "GSS Ltd."
+#define MODEL "EffectiveRange"
+#define HAVE_LINUX_NETLINK_H 1
 #endif
 
 #include <ctype.h>
